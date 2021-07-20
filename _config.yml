@@ -9,9 +9,9 @@ description: "Rice Chinese Students & Scholars Association"
 
 # Team names, titles and social links
 people:
-- name: Kay Garland
+- name: Yifei Li
   pic: 1
-  position: Lead Designer
+  position: Undergraduate President
   social:
     - title: twitter
       url: #
@@ -20,9 +20,9 @@ people:
     - title: stack-overflow
       url: #
 
-- name: Larry Parker
+- name: Shiwei Li
   pic: 2
-  position: Lead Marketer
+  position: Graduate President
   social:
     - title: twitter
       url: #
@@ -31,9 +31,9 @@ people:
     - title: linkedin
       url: #
 
-- name: Diana Petersen
+- name: ???
   pic: 3
-  position: Lead Developer
+  position: Trouble Maker
   social:
     - title: twitter
       url: #
@@ -45,13 +45,13 @@ people:
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url: http://twitter.com/jekyllrb
+    url: http://twitter.com/rcssa1
   - title: facebook
     url:
   - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
+    url: 
   - title: bitbucket 
-    url: http://bitbucket.org/jekyll
+    url: 
   - title: github
     url: http://github.com/jekyll
 
