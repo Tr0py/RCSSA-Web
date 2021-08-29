@@ -891,7 +891,7 @@ body {
   
 /* The sidebar menu */
 .sidenav {
-  height: 100%; /* Full-height: remove this if you want "auto" height */
+  height: auto; /* Full-height: remove this if you want "auto" height */
   width: 160px; /* Set the width of the sidebar */
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
   z-index: 1; /* Stay on top */
@@ -928,4 +928,10 @@ body {
   .sidenav a {font-size: 18px;}
 }
 
+/* Style page content */
+.box {
+    border:2px solid #000;
+    border-radius: 40px 40px 40px 40px;
+    height: 100%;
+}
 
