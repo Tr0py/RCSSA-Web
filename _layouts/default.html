@@ -1,22 +1,10 @@
 <!DOCTYPE html>
 <html>
-
   {% include head.html %}
 
-
-    <body id="page-top" class="index">
-
-    {% include header.html %}
-    {% include welcome.html %}
-<<<<<<< HEAD
-    {% include new_students.html %}
-    {% include about.html %}  
-=======
-    {% include article.html %}
->>>>>>> gh-pages
-    {% include footer.html %}
-    {% include js.html %}
- 
-
-    </body>
+  <body id="page-top" class="index">
+    {% include nav_bar.html %} {% for section in page.sections %} {% include
+    {{section.name}} %} {% endfor %} {% include footer.html %} {% include
+    js.html %}
+  </body>
 </html>
