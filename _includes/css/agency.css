@@ -809,19 +809,6 @@ section#contact .text-danger {
     color: #e74c3c;
 }
 
-section#useful_links {
-    position: absolute;
-left: 0%;
-right: 0%;
-top: 45.91%;
-bottom: 30.85%;
-height: 762px;
-width: 1920px;
-left: 0px;
-top: 1506px;
-border-radius: 0px;
-background: #71002B;
-}
 
 footer {
     padding: 25px 0;
