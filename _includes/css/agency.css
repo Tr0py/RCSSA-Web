@@ -69,6 +69,10 @@ h6 {
     background-color: #f7f7f7;
 }
 
+.bg-dark-red {
+    background-color: #71002B;
+}
+
 .bg-dark-blue {
     background-color: #{{ site.data.template.color.secondary }};
     color: #fff
@@ -805,6 +809,20 @@ section#contact .text-danger {
     color: #e74c3c;
 }
 
+section#useful_links {
+    position: absolute;
+left: 0%;
+right: 0%;
+top: 45.91%;
+bottom: 30.85%;
+height: 762px;
+width: 1920px;
+left: 0px;
+top: 1506px;
+border-radius: 0px;
+background: #71002B;
+}
+
 footer {
     padding: 25px 0;
     text-align: center;
@@ -1017,3 +1035,11 @@ body {
     margin-top: 15px;
     border-radius: 5px
 }
+
+img.mid-school {
+    height: 10.74797058105469px;
+    width: 10.31853485107422px;
+    left: 658px;
+    top: 1611px;
+    border-radius: 0px;
+  }

@@ -3,8 +3,12 @@
   {% include head.html %}
 
   <body id="page-top" class="index">
-    {% include nav_bar.html %} {% for section in page.sections %} {% include
-    {{section.name}} %} {% endfor %} {% include footer.html %} {% include
-    js.html %}
+    {% include nav_bar.html %} 
+    {% for section in page.sections %} 
+    {% include {{section.name}} %} 
+    {% endfor %} 
+    {{content}}
+    {% include footer.html %} 
+    {% include js.html %}
   </body>
 </html>
