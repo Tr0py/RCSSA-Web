@@ -11,12 +11,10 @@ body {
 }
 
 .text-muted {
-    color: #{{ site.data.template.color.muted }};
-}
-
-
-.text-primary {
-    color: #{{ site.data.template.color.primary }};
+    color:#fff;
+    font-family: optima, regular, serif;
+    font-size: 35px;
+    max-width: 500px;
 }
 
 p {
@@ -53,12 +51,9 @@ h3,
 h4,
 h5,
 h6 {
-    #text-transform: uppercase;
+    text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
     font-weight: 700;
-    line-height: 160%;
-    text-align:text-justify;
-    text-justify: inter-ideograph;
 }
 
 .img-centered {
@@ -66,14 +61,8 @@ h6 {
 }
 
 .bg-light-gray {
-    background-color: #f7f7f7;
+    background-color: #ce3c00;
 }
-
-.bg-dark-blue {
-    background-color: #{{ site.data.template.color.secondary }};
-    color: #fff
-}
-
 
 .bg-darkest-gray {
     background-color: #222;
@@ -129,10 +118,9 @@ fieldset[disabled] .btn-primary.active {
 }
 
 .btn-xl {
-    margin-top: 30px;
     padding: 20px 40px;
     border-color: #{{ site.data.template.color.primary }};
-    border-radius: 20px;;
+    border-radius: 3px;
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
     font-size: 18px;
@@ -188,7 +176,10 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    position:absolute;
+    top:52px;
     color: #{{ site.data.template.color.primary }};
+
 }
 
 .navbar-default .navbar-brand:hover,
@@ -200,6 +191,15 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-collapse {
     border-color: rgba(255,255,255,.02);
+    font-size: 28px;
+    font-style: optima;
+    position:absolute;
+    left:778px;
+    line-height: 34px;
+    letter-spacing: 1px;
+    top:52px;
+    width:1222px;
+
 }
 
 .navbar-default .navbar-toggle {
@@ -276,17 +276,11 @@ fieldset[disabled] .btn-xl.active {
     }
 }
 
-.welcome-title {
-    text-align: center;
-    color: #fff;
-    font-size: 
-}
-
 header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/rice-rcssa-bg.jpeg');
+    background-image: url('{{ site.baseurl }}/img/header-bg.jpg');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -295,75 +289,9 @@ header {
     -o-background-size: cover;
 }
 
-.font-color-deep {
-    color: {{ site.data.template.color.secondary }};
-}
-
-header .padding {
-    padding-top: 25vh;
-}
-
-header .b-rectangle {
-    position: relative;
-    margin:auto;
-    height: 50vh;
-    width: 60vw;
-    background-color: rgba(255,255,255, 0.7);
-    color: #{{ site.data.template.color.secondary }};
-}
-
-header .b-rectangle .title {
-    margin: 0;
-    position: absolute;
-    top: 10%;
-    right: 10%;
-    font-size: 100px;
-    letter-spacing: 10px;
-}
-
-header .s-rectangle {
-    position: absolute;
-    top: -50px;
-    left: -50px;
-    height: 20vh;
-    width: 25vw;
-    background-color: #{{ site.data.template.color.secondary }};
-    color: white;
-}
-
-header .s-rectangle .title {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 70px;
-}
-
-header .b-rectangle .p1 {
-    margin: 0;
-    position: absolute;
-    bottom: 30%;
-    left: 50%;
-    white-space: nowrap;
-    transform: translate(-50%, -50%);
-    font-size: 35px;
-}
-header .b-rectangle .p2 {
-    margin: 0;
-    position: absolute;
-    bottom: 15%;
-    left: 50%;
-    white-space: nowrap;
-    transform: translate(-50%, -50%);
-    font-size: 40px;
-    letter-spacing: 8px;
-}
-
 header .intro-text {
     padding-top: 100px;
     padding-bottom: 50px;
-    color: #{{ site.data.template.color.white }};
 }
 
 header .intro-text .intro-lead-in {
@@ -375,19 +303,25 @@ header .intro-text .intro-lead-in {
 }
 
 header .intro-text .intro-heading {
-    margin-bottom: 200px;
-    #text-transform: uppercase;
-    font-family: {{ site.data.template.font.primary }};
-    font-size: 50px;
-    font-weight: 700;
-    line-height: 50px;
+    /*margin-bottom: 25px;*/
+    color:#FFFFFF;
+    /*text-align: center;*/
+    position:fixed;
+    top:483px;
+    left:309px;
+    text-transform: uppercase;
+    font-family: Alegreya;
+    letter-spacing: 3px;
+    font-size: 100px;
+    font-weight: bold;
+    width:630px;
+    line-height:115px;
 }
 
 @media(min-width:768px) {
     header .intro-text {
         padding-top: 300px;
         padding-bottom: 200px;
-        color: #{{ site.data.template.color.white }};
     }
 
     header .intro-text .intro-lead-in {
@@ -399,12 +333,14 @@ header .intro-text .intro-heading {
     }
 
     header .intro-text .intro-heading {
-        margin-bottom: 100px;
-        #text-transform: uppercase;
+        margin-bottom: 50px;
+        text-transform: uppercase;
         font-family: {{ site.data.template.font.primary }};
-        font-size: 20px;
-        #font-weight: 700;
-        #line-height: 75px;
+        height: 115px;
+        position: absolute;
+        x: 309px;
+        y: 483px;
+        width: 630px;
     }
 }
 
@@ -415,7 +351,12 @@ section {
 section h2.section-heading {
     margin-top: 0;
     margin-bottom: 15px;
-    font-size: 40px;
+    font-size: 80px;
+    color:#fff;
+    font-family:optima, bold, sans-serif; 
+    position: relative;
+    text-transform:none;
+    top: 80px;
 }
 
 section h3.section-subheading {
@@ -717,23 +658,37 @@ section h3.section-subheading {
 }
 
 .team-member {
-    margin-bottom: 50px;
+    margin-bottom: 35px;
     text-align: center;
+    text-transform:none;
+    color:#fff;
+    font-family: optima, bold, serif;
 }
 
 .team-member img {
     margin: 0 auto;
-    border: 7px solid #fff;
+    border: 0px solid #fff;
+    width:205px;
+    height:171px;
+    display: inline;
 }
 
 .team-member h4 {
-    margin-top: 25px;
+    font-size: 35px;
     margin-bottom: 0;
-    text-transform: none;
+    text-transform:none;
+    color:#fff;
+    font-family: optima, bold;
+    display: inline-block;
 }
 
 .team-member p {
     margin-top: 0;
+    display: inline-block;
+    white-space: nowrap;
+    width:100%;
+    overflow:visible;
+    text-overflow: ellipsis;
 }
 
 aside.clients img {
@@ -948,24 +903,4 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #{{ site.data.template.color.primary }};
-}
-
-.card-item {
-    margin-bottom: 2vh;
-    margin-top: 2vh;
-    margin-left: 50px;
-    margin-right: 50px;
-    border-radius: 10px;
-    background-color: rgba(48,56,100, 0.1);
-    padding: 12px;
-}
-
-.text-white {
-    color: white;
-}
-
-.img-border-radius {
-    margin: 10px;
-    margin-top: 15px;
-    border-radius: 5px
 }

@@ -1,16 +1,30 @@
-# RCSSA Website
+Agency Jekyll theme
+====================
 
-# How to Run Locally
+Agency theme based on [Agency bootstrap theme ](https://startbootstrap.com/template-overviews/agency/)
 
-```shell
-git clone https://github.com/RCSSA/RCSSA-Web.git
-jekyll serve
-```
+# How to use
 
-Then access 127.0.0.1:4000 in your browser.
+###Portfolio 
 
-![image](https://user-images.githubusercontent.com/37894237/127791787-44100d85-78b5-4ae5-bd54-c6b6c72c821e.png)
+Portfolio projects are in '/_posts'
+
+Images are in '/img/portfolio'
+
+###About
+
+Images are in '/img/about/'
+
+###Team
+
+Team members and info are in '_config.yml'
+
+Images are in '/img/team/'
+
 
 # Demo
 
-[RCSSA Web(test)](https://rcssa.github.io/RCSSA-Web/)
+View this jekyll theme in action [here](https://y7kim.github.io/agency-jekyll-theme)
+
+=========
+For more details, read [documentation](http://jekyllrb.com/)
