@@ -717,23 +717,37 @@ section h3.section-subheading {
 }
 
 .team-member {
-    margin-bottom: 50px;
+    margin-bottom: 35px;
     text-align: center;
+    text-transform:none;
+    color:#fff;
+    font-family: optima, bold, serif;
 }
 
 .team-member img {
     margin: 0 auto;
     border: 7px solid #fff;
+    width:205px;
+    height:171px;
+    display: inline;
 }
 
 .team-member h4 {
-    margin-top: 25px;
+    margin-top: 35px;
     margin-bottom: 0;
     text-transform: none;
+    color:#fff;
+    font-family: optima, bold;
+    display: inline-block;
 }
 
 .team-member p {
     margin-top: 0;
+    display: inline-block;
+    white-space: nowrap;
+    width:100%;
+    overflow:visible;
+    text-overflow: ellipsis;
 }
 
 aside.clients img {
