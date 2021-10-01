@@ -279,14 +279,26 @@ fieldset[disabled] .btn-xl.active {
 .welcome-title {
     text-align: center;
     color: #fff;
-    font-size: 
 }
 
 header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/rice-rcssa-bg.jpeg');
+    background-image: url('/img/rice-rcssa-bg.jpeg');
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+header.p4 {
+    text-align: center;
+    color: #fff;
+    background-attachment: scroll;
+    background-image: url("{{ site.baseurl }}/img/p4_header.png");
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
