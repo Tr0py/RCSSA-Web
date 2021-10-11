@@ -969,3 +969,116 @@ body {
     margin-top: 15px;
     border-radius: 5px
 }
+
+.rounded-circle {
+    border: black;
+    border-style: solid;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 400px;
+}
+
+.follow-us {
+    position: relative;
+    color: black;
+}
+
+.follow-us a {
+    position: relative;
+    color: black;
+}
+
+.follow-us .card-item {
+    background-color: #fff;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    position: absolute;
+    left: 50%;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.follow-us h3,
+.follow-us h4 {
+    margin: 0 0;
+    font-weight: 400;
+}
+
+.description {
+    display: inline-block;
+}
+
+.follow-us i {
+    height: 100px;
+    width: 100px;
+}
+
+#contact-us {
+    position: relative;
+    background: url("img/page4/campus.jpg") no-repeat;
+    background-size: 100% 100%;
+    max-width: 100%;
+    max-height: 87vh;
+    height: auto;
+}
+
+#contact-us .card-item {
+    width: 580px;
+height: 309px;
+    background-color: rgba(255,255,255,.8);
+    margin: auto;
+}
+
+#message {
+    width: 504px;
+    height: 153px;
+    border: 1px solid #D2D6DA;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin: auto;
+    margin-top: 3%;
+}
+
+#name{
+    float: left;
+    width: 225px;
+    margin-left:25px;
+}
+
+#email {
+    float: right;
+    width: 225px;
+    margin-right: 25px;
+}
+
+.center {
+    position: absolute;
+    left: 50%;
+    top: 12%;
+    transform: translate(-50%, -50%); 
+}
+
+.contact {
+    color: #fff;
+    margin-bottom: 100px;
+}
+
+#contact-us .btn-xl {
+    font-size: 14px;
+    background: #CE3C00;
+    padding: 10px;
+    margin-top: 1%;
+/* Button/Default */
+
+box-shadow: 0px 4px 7px -1px rgba(0, 0, 0, 0.11), 0px 2px 4px -1px rgba(0, 0, 0, 0.07);
+border-radius: 4px;
+}
