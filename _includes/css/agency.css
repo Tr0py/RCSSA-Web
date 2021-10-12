@@ -286,7 +286,7 @@ fieldset[disabled] .btn-xl.active {
     font-size: 
 }
 
-header {
+header.home {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
@@ -365,6 +365,7 @@ header .t-container .p2 {
     font-size: 60px;
     line-height: 97px;
     letter-spacing: 3px;
+    color: #FFFF;
 }
 
 header .b-rectangle .p1 {
