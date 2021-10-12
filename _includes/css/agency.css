@@ -74,6 +74,9 @@ h6 {
     color: #fff
 }
 
+.bg-orange {
+    background-color: #ce3c00;
+}
 
 .bg-darkest-gray {
     background-color: #222;
@@ -279,14 +282,26 @@ fieldset[disabled] .btn-xl.active {
 .welcome-title {
     text-align: center;
     color: #fff;
-    font-size: 
 }
 
 header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/rice-rcssa-bg.jpeg');
+    background-image: url('/img/rice-rcssa-bg.jpeg');
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+header.p4 {
+    text-align: center;
+    color: #fff;
+    background-attachment: scroll;
+    background-image: url("{{ site.baseurl }}/img/p4_header.png");
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -381,6 +396,7 @@ header .intro-text .intro-heading {
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
+    margin-right: 35%;
 }
 
 @media(min-width:768px) {
@@ -398,14 +414,14 @@ header .intro-text .intro-heading {
         line-height: 40px;
     }
 
-    header .intro-text .intro-heading {
+    /* header .intro-text .intro-heading {
         margin-bottom: 100px;
         #text-transform: uppercase;
         font-family: {{ site.data.template.font.primary }};
         font-size: 20px;
         #font-weight: 700;
         #line-height: 75px;
-    }
+    } */
 }
 
 section {
@@ -416,6 +432,16 @@ section h2.section-heading {
     margin-top: 0;
     margin-bottom: 15px;
     font-size: 40px;
+}
+
+section h2.p4-section-heading {
+    margin-top: -100px;
+    margin-bottom: 100px;
+    font-size: 60px;
+    color:#fff;
+    font-family:optima, bold, sans-serif; 
+    position: relative;
+    text-transform:none;
 }
 
 section h3.section-subheading {
@@ -717,23 +743,37 @@ section h3.section-subheading {
 }
 
 .team-member {
-    margin-bottom: 50px;
+    margin-bottom: 35px;
     text-align: center;
+    text-transform:none;
+    color:#fff;
+    font-family: optima, bold, serif;
 }
 
 .team-member img {
     margin: 0 auto;
     border: 7px solid #fff;
+    width: 180px;
+    height: 140px;
+    display: inline;
 }
 
 .team-member h4 {
-    margin-top: 25px;
+    margin-top: 35px;
     margin-bottom: 0;
     text-transform: none;
+    color:#fff;
+    font-family: optima, bold;
+    /* display: inline-block; */
 }
 
 .team-member p {
     margin-top: 0;
+    display: inline-block;
+    white-space: nowrap;
+    width:100%;
+    overflow:visible;
+    text-overflow: ellipsis;
 }
 
 aside.clients img {
