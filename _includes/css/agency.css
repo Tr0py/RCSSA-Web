@@ -344,6 +344,29 @@ header .s-rectangle .title {
     font-size: 70px;
 }
 
+header .t-container {
+    position: relative;
+    margin:auto;
+    height: 60vh;
+    width: 60vw;
+    background-color: rgba(255,255,255, 0);
+}
+
+header .t-container .p2 {
+    margin: 0;
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    white-space: nowrap;
+    transform: translate(-50%, -50%);
+    font-family: Optima;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 97px;
+    letter-spacing: 3px;
+}
+
 header .b-rectangle .p1 {
     margin: 0;
     position: absolute;
