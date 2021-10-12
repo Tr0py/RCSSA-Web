@@ -435,14 +435,13 @@ section h2.section-heading {
 }
 
 section h2.p4-section-heading {
-    margin-top: 0;
-    margin-bottom: 15px;
+    margin-top: -100px;
+    margin-bottom: 100px;
     font-size: 60px;
     color:#fff;
     font-family:optima, bold, sans-serif; 
     position: relative;
     text-transform:none;
-    top: 80px;
 }
 
 section h3.section-subheading {
@@ -754,8 +753,8 @@ section h3.section-subheading {
 .team-member img {
     margin: 0 auto;
     border: 7px solid #fff;
-    width:205px;
-    height:171px;
+    width: 180px;
+    height: 140px;
     display: inline;
 }
 
@@ -765,7 +764,7 @@ section h3.section-subheading {
     text-transform: none;
     color:#fff;
     font-family: optima, bold;
-    display: inline-block;
+    /* display: inline-block; */
 }
 
 .team-member p {
