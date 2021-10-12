@@ -74,6 +74,9 @@ h6 {
     color: #fff
 }
 
+.bg-orange {
+    background-color: #ce3c00;
+}
 
 .bg-darkest-gray {
     background-color: #222;
@@ -393,6 +396,7 @@ header .intro-text .intro-heading {
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
+    margin-right: 35%;
 }
 
 @media(min-width:768px) {
@@ -410,14 +414,14 @@ header .intro-text .intro-heading {
         line-height: 40px;
     }
 
-    header .intro-text .intro-heading {
+    /* header .intro-text .intro-heading {
         margin-bottom: 100px;
         #text-transform: uppercase;
         font-family: {{ site.data.template.font.primary }};
         font-size: 20px;
         #font-weight: 700;
         #line-height: 75px;
-    }
+    } */
 }
 
 section {
@@ -428,6 +432,17 @@ section h2.section-heading {
     margin-top: 0;
     margin-bottom: 15px;
     font-size: 40px;
+}
+
+section h2.p4-section-heading {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 60px;
+    color:#fff;
+    font-family:optima, bold, sans-serif; 
+    position: relative;
+    text-transform:none;
+    top: 80px;
 }
 
 section h3.section-subheading {
