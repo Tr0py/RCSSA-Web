@@ -297,6 +297,19 @@ header {
     -o-background-size: cover;
 }
 
+header.friends{
+    text-align: center;
+    color: #fff;
+    background-attachment: scroll;
+    background-image: url("{{ site.baseurl }}/img/friends-bg.png");
+    background-position: center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
 header.p4 {
     text-align: center;
     color: #fff;
@@ -1135,6 +1148,53 @@ height: 309px;
     width: 400px;
 }
 
-box-shadow: 0px 4px 7px -1px rgba(0, 0, 0, 0.11), 0px 2px 4px -1px rgba(0, 0, 0, 0.07);
-border-radius: 4px;
+.friends-text {
+    color: white;
+    font-size: medium;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.friends-vl {
+    background-color: white;
+    margin: auto;
+    height: 100%;
+    width: 1px;
+}
+
+.friends-color {
+    color: #392954;
+}
+
+.friends-li {
+    padding-top: 2%;
+
+}
+.friends-li .ul {
+    background-color: lightskyblue;
+}
+
+.friends-li .a {
+    color: white;
+}
+.friends-li .a  :hover{
+    color: lightskyblue;
+}
+
+.friends-link {
+    font-size: medium;
+    color: white;
+}
+.friends-link:hover{
+    color: lightskyblue;
+}
+.friends-link:focus{
+    color: lightskyblue;
+}
+.friends-link:active{
+    color: lightskyblue;
+}
+
+.friends-card-img {
+    border-radius: 10px;
 }
