@@ -1104,11 +1104,12 @@ body {
 .rounded-circle {
     border: black;
     border-style: solid;
-    height: 400px;
-    width: 400px;
+    height: 450px;
+    width: 450px;
     border-radius: 50%;
     text-align: center;
-    line-height: 400px;
+    line-height: 450px;
+    font-size: 64px;
 }
 
 .follow-us {
@@ -1154,24 +1155,21 @@ body {
 }
 
 #contact-us {
-    position: relative;
     background: url("img/page4/campus.jpg") no-repeat;
     background-size: 100% 100%;
-    max-width: 100%;
-    max-height: 87vh;
-    height: auto;
 }
 
 #contact-us .card-item {
-    width: 580px;
-height: 309px;
+    width: 696px;
+height: 371px;
     background-color: rgba(255,255,255,.8);
     margin: auto;
+    margin-top: 60px;
 }
 
 #message {
-    width: 504px;
-    height: 153px;
+    width: 604px;
+    height: 185px;
     border: 1px solid #D2D6DA;
     box-sizing: border-box;
     border-radius: 8px;
@@ -1181,14 +1179,22 @@ height: 309px;
 
 #name{
     float: left;
-    width: 225px;
-    margin-left:25px;
+    width: 288px;
+    margin-left:35px;
+    margin-top: 10px;
+    border: 1px solid #D2D6DA;
+    box-sizing: border-box;
+    border-radius: 8px;
 }
 
 #email {
     float: right;
-    width: 225px;
-    margin-right: 25px;
+    width: 288px;
+    margin-right: 35px;
+    margin-top: 10px;
+    border: 1px solid #D2D6DA;
+    box-sizing: border-box;
+    border-radius: 8px;
 }
 
 .center {
@@ -1199,7 +1205,11 @@ height: 309px;
 }
 
 .contact {
+    font-family: Optima;
+font-style: normal;
+font-weight: bold;
     color: #fff;
+    font-size: 64px;
     margin-bottom: 100px;
 }
 
