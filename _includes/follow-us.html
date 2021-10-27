@@ -1,9 +1,9 @@
 <!--page 4 follo-us-->
 <div class="follow-us container">
-  <div class="container-sm card-item row">
+  <div class="container-sm card-item row" style="margin: 50px 0 50px 0">
     <div class="left">
       {% for media in site.follow %}
-      <div style="margin: 30px">
+      <div style="margin: 80px 0 80px 0">
         <div class="description">
           <i class="fa fa-{{media.icon}} fa-5x"></i>
         </div>
@@ -12,17 +12,12 @@
           <h4><a href="{{media.url}}">{{media.url}}</a></h4>
         </div>
         {% if media.icon == "weixin" %}
-        <img
-          style="
+        <img style="
             width: 75px;
             height: 75px;
             margin-left: 20px;
             vertical-align: top;
-          "
-          class="description"
-          src="../img/logos/weixin.png"
-          alt=""
-        />
+          " class="description" src="../img/logos/weixin.png" alt="" />
         {%endif%}
       </div>
       {%endfor%}
