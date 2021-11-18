@@ -43,16 +43,12 @@ people:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/rcssa1
   - title: facebook
-    url: http://www.facebook.com/groups/rcssc/
-  - title: stack-overflow
-    url:
-  - title: bitbucket
-    url:
-  - title: github
-    url: http://github.com/jekyll
+    url: #
+  - title: instagram
+    url: #
+  - title: wechat
+    url: #
 
 # Postal address (add as many lines as necessary)
 address:
