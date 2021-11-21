@@ -3,60 +3,96 @@
     <h2 class="faq">FAQ</h2>
     <div class="question">
       <div class="row">
-        <img
-          class="down-arrow"
-          src="../img/new_students/Text and Icon.png"
-          alt="see more"
-        />
-        <div class="question-text">如何加入微信群</div>
+        <button type="button" class="collapsible">
+          <img
+            class="down-arrow"
+            src="../img/new_students/Text and Icon.png"
+            alt="see more"
+          />
+          如何加入微信群
+        </button>
+
+        <div class="content">
+          <p>扫码呗</p>
+        </div>
+
         <hr />
       </div>
     </div>
     <div class="question">
       <div class="row">
-        <img
-          class="down-arrow"
-          src="../img/new_students/Text and Icon.png"
-          alt="see more"
-        />
-        <div class="question-text">如何加入微信群</div>
+        <button type="button" class="collapsible">
+          <img
+            class="down-arrow"
+            src="../img/new_students/Text and Icon.png"
+            alt="see more"
+          />
+          如何加入微信群
+        </button>
+
+        <div class="content">
+          <p>扫码呗</p>
+        </div>
+
         <hr />
       </div>
     </div>
     <div class="question">
       <div class="row">
-        <img
-          class="down-arrow"
-          src="../img/new_students/Text and Icon.png"
-          alt="see more"
-        />
-        <div class="question-text">如何加入微信群</div>
+        <button type="button" class="collapsible">
+          <img
+            class="down-arrow"
+            src="../img/new_students/Text and Icon.png"
+            alt="see more"
+          />
+          如何加入微信群
+        </button>
+
+        <div class="content">
+          <p>扫码呗</p>
+        </div>
+
         <hr />
       </div>
     </div>
     <div class="question">
       <div class="row">
-        <img
-          class="down-arrow"
-          src="../img/new_students/Text and Icon.png"
-          alt="see more"
-        />
-        <div class="question-text">如何加入微信群</div>
+        <button type="button" class="collapsible">
+          <img
+            class="down-arrow"
+            src="../img/new_students/Text and Icon.png"
+            alt="see more"
+          />
+          如何加入微信群
+        </button>
+
+        <div class="content">
+          <p>扫码呗</p>
+        </div>
+
         <hr />
       </div>
     </div>
     <div class="question">
       <div class="row">
-        <img
-          class="down-arrow"
-          src="../img/new_students/Text and Icon.png"
-          alt="see more"
-        />
-        <div class="question-text">如何加入微信群</div>
+        <button type="button" class="collapsible">
+          <img
+            class="down-arrow"
+            src="../img/new_students/Text and Icon.png"
+            alt="see more"
+          />
+          如何加入微信群
+        </button>
+
+        <div class="content">
+          <p>扫码呗</p>
+        </div>
+
         <hr />
       </div>
     </div>
   </div>
+
   <style>
     h2.faq {
       font-family: Optima;
@@ -91,5 +127,54 @@
       margin-left: 5%;
       padding-right: 30%;
     }
+
+    .collapsible {
+      font-family: Optima;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 50px;
+      letter-spacing: 0.1em;
+      color: #ffffff;
+      display: inline;
+      background-color: transparent;
+      border: none;
+      padding-right: 73%;
+    }
+
+    .active,
+    .collapsible:hover {
+      /* background-color: #960039; */
+      background-color: #660127;
+    }
+
+    .content {
+      padding: 0 18px;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.2s ease-out;
+      background-color: transparent;
+      font-family: Optima;
+      font-style: normal;
+      font-weight: bold;
+    }
   </style>
+
+  <script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function () {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.maxHeight) {
+          content.style.maxHeight = null;
+        } else {
+          console.log(content.scrollHeight);
+          content.style.maxHeight = content.scrollHeight + "px";
+        }
+      });
+    }
+    console.log("done");
+  </script>
 </section>
