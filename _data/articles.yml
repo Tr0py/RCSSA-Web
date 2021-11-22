@@ -1,21 +1,31 @@
-# This stores the projects info. 
+# This stores the projects info.
 # the `description` field supports markdown syntax.
 # be careful to indent correctly. (\t)
 
-- title: RCSSA 自营 CS 秋招 Panel
-  thumbnail: 1.jpeg
-  link: https://tr0py.github.io/
+- title: 【回顾】RCSSA中秋照片及回顾
+  thumbnail: 中秋.png
+  link: https://mp.weixin.qq.com/s/oMIVRwU5j1Iiu4hcOewxSQ
   description: |
-    这是一段描述。
+    “凝光悠悠寒露坠，\\
+    此时立在最高山。”\\
+    虽远在他乡\\
+    家乡的圆月却抬眼即见
 
-- title: 2021 新生见面会
-  thumbnail: 2.jpeg
-  link: 
+- title: 【活动】9月11日，线下新生和平Mixer！
+  thumbnail: 新生mixer.gif
+  link: https://mp.weixin.qq.com/s/MnxzPpIDNLYke2Xa0Qc4qQ
   description: |
-    这是一段描述。
+    充分社交\\
+    彼此了解\\
+    找到课友(大腿)\\
+    交流经验(蹭吃蹭喝)\\
+    走向莱斯巅峰!
 
-- title: 2019 Spring Festival
-  thumbnail: 3.jpeg
-  link: 
+- title: 【活动】2021 Fall 新生接机感谢与反馈
+  thumbnail: 接机.png
+  link: https://mp.weixin.qq.com/s/dMsOUzrz_0icZUzVgg6Erg
   description: |
-    这是一段描述。
+    今年8月，许多rice的学长学姐以及校友志愿者们自愿报名参加了接机活动。
+    在这个出国很艰辛的时期，很多的new & returning owls都被学长学姐们热情
+    欢迎并安全送达了校园，也在他们的帮助下很好地适应了校园生活。
+    因此，我们在此想要感谢一下所有参与活动的志愿者们！
