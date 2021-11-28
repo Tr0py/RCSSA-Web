@@ -1,0 +1,31 @@
+# Information about the RCSSA board
+# Please enter information by row
+
+# 主席
+- row:
+    - info:
+        name: Li Yifei
+        title: Undergraduate President
+        picture: "lyf.png"
+    - info:
+        name: Li Shiwei
+        title: Graduate President
+        picture: "lsw.png"
+
+# 内务
+- row:
+    - info:
+        name: Niu Yihan
+        title: Internal Affairs Undergraduate Chair
+        picture: "nyh.jpg"
+    - info:
+        name: Lu Yan
+        title: Internal Affairs Undergraduate Chair
+        picture: "ly.JPG"
+
+# IT
+- row:
+    - info:
+        name: Li Yueqian
+        title: IT Chair
+        picture: "lyq.jpg"

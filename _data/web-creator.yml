@@ -1,0 +1,46 @@
+# information about website creators
+- row:
+    - info:
+        name: Li Yueqian
+        title: Team Lead
+        picture: "lyq.jpg"
+- row:
+    - info:
+        name: Zhao Ziyi
+        title: Tech Lead
+        picture: "zzy.png"
+
+    - info:
+        name: Hu Yaning
+        title: Web Designer
+        picture: "hyn.png"
+
+- row:
+    - info:
+        name: Liu Yitong
+        title: UI Designer
+        picture: "lyt.png"
+    - info:
+        name: Zhang Ruoxin
+        title: Frontend Developer
+        picture: "zrx.png"
+
+- row:
+    - info:
+        name: Xu Ningzhi
+        title: Frontend Developer
+        picture: "xnz.png"
+    - info:
+        name: Wang Xincheng
+        title: Frontend Developer
+        picture: "wxc.png"
+
+- row:
+    - info:
+        name: Li Xuanchen
+        title: Frontend Developer
+        picture: "lxc.png"
+    - info:
+        name: Zhou Yufeng
+        title: Backend Developer
+        picture: "zyf.png"
