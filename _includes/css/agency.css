@@ -889,22 +889,6 @@ section#contact .text-danger {
 
 footer {
     padding: 25px 0;
-    text-align: center;
-}
-
-footer span.copyright {
-    text-transform: uppercase;
-    text-transform: none;
-    font-family: {{ site.data.template.font.primary }};
-    line-height: 40px;
-}
-
-footer ul.quicklinks {
-    margin-bottom: 0;
-    text-transform: uppercase;
-    text-transform: none;
-    font-family: {{ site.data.template.font.primary }};
-    line-height: 40px;
 }
 
 ul.social-buttons {
@@ -1293,3 +1277,19 @@ img.mid-school {
     top: 1611px;
     border-radius: 0px;
   }
+
+.footer-mid {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.footer-text {
+    font-family: Optima;
+font-style: normal;
+font-weight: bold;
+font-size: 23px;
+color: #fff;
+margin: 25px;
+}
