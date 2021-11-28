@@ -1,0 +1,24 @@
+# stores the merch information
+- name: "HOODIE #1"
+  front: "Hoodie 01 Front.png"
+  back: "Hoodie 01 Back.png"
+  sizes: "S / M / L / XL / XXL"
+  text: “自叹不如华表鹤，故乡常在白云中。”
+
+- name: "HOODIE #2"
+  front: "Hoodie 02 Front.png"
+  back: "Hoodie 02 Back.png"
+  sizes: "S / M / L / XL / XXL"
+  text: “猗与漆沮，潜有多鱼。”
+
+- name: "CANVAS BAG #1"
+  front: "Canvas Bag 01 Front.png"
+  back: "Canvas Bag 01 Front.png"
+  sizes: "均码"
+  text: “拒绝内卷。”
+
+- name: "CANVAS BAG #2"
+  front: "Canvas Bag 02 Front.png"
+  back: "Canvas Bag 02 Back.png"
+  sizes: "均码"
+  text: “请勿摸鱼。”

@@ -1,25 +1,25 @@
-  <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <span class="copyright">Copyright &copy; {{ site.title }} {{ 'now' | date: "%Y" }}</span>
-                </div>
-                <div class="col-md-4">
-                    <ul class="list-inline social-buttons">
-                        {% for network in site.social %}
-                        <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
-                        </li>
-                        {% endfor %}
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                    <ul class="list-inline quicklinks">
-                        <li><a href="#">Privacy Policy</a>
-                        </li>
-                        <li><a href="#">Terms of Use</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
+<footer style="padding: 0">
+  <div
+    class="container"
+    style="background-color: {{page.color}}; width: 100%; height: 100px; line-height: 50px; position: relative;"
+  >
+    <div class="footer-mid">
+      <span class="footer-text"
+        >{{ 'now' | date: "%Y" }} {{site.title}} @ Rice University</span
+      >
+      <ul
+        class="list-inline social-buttons"
+        style="display: inline-block; text-align: center"
+      >
+        {% for network in site.social %}
+        <li>
+          <a href="{{ network.url }}"
+            ><i class="fa fa-{{ network.title }}"></i
+          ></a>
+        </li>
+        {% endfor %}
+      </ul>
+      <span class="footer-text">Contact Us</span>
+    </div>
+  </div>
+</footer>
