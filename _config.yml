@@ -6,49 +6,16 @@ title: RCSSA
 email: rcssa@rice.edu
 description: "Rice Chinese Students & Scholars Association"
 
-# Team names, titles and social links
-people:
-  - name: Yifei Li
-    pic: 1
-    position: Undergraduate President
-    social:
-      - title: twitter
-        url: #
-      - title: facebook
-        url: #
-      - title: stack-overflow
-        url: #
-
-  - name: Shiwei Li
-    pic: 2
-    position: Graduate President
-    social:
-      - title: twitter
-        url: #
-      - title: facebook
-        url: #
-      - title: linkedin
-        url: #
-
-  - name: ???
-    pic: 3
-    position: Trouble Maker
-    social:
-      - title: twitter
-        url: #
-      - title: facebook
-        url: #
-      - title: google-plus
-        url: #
-
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: facebook
-    url: #
-  - title: instagram
-    url: #
+  - url: https://www.facebook.com/RiceRCSSA
+    title: facebook
+
+  - url: https://www.instagram.com/rice_rcssa/?hl=en
+    title: instagram
+
   - title: wechat
-    url: #
+    url: "/img/wechat.jpg"
 
 # Postal address (add as many lines as necessary)
 address:
@@ -62,10 +29,10 @@ permalink: pretty
 follow:
   - icon: weixin
     title: 微信公众号
-    url: RCSSAweixin
+    url: "/img/wechat.jpg"
   - icon: facebook-official
     title: Facebook
-    url: http://www.facebook.com/groups/rcssc/
-  - icon: envelope
-    title: Mailing List 注册（请用Rice邮箱）
-    url: https://mailman.rice.edu/mailman/listinfo/rcsc
+    url: https://www.facebook.com/RiceRCSSA
+  - icon: instagram
+    title: Instagram
+    url: https://www.instagram.com/rice_rcssa/?hl=en

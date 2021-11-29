@@ -16,7 +16,13 @@
         <div class="product-text">尺码: {{ product.sizes }}</div>
 
         <!-- like -->
-        <button class="like">Like</button>
+        <button
+          class="like"
+          id="like-button-{{ product.id }}"
+          onclick="clicked('{{ product.id }}')"
+        >
+          Like
+        </button>
       </div>
       <div class="col-md-6">
         <img src="/img/merch/{{ product.front }}" />
@@ -54,7 +60,7 @@
     border-style: solid;
     border-width: medium; /* sets border width on all sides */
     border-color: #656565;
-    font-size: 20px;
+    font-size: 1.5vw;
     padding-top: 3%;
     margin-right: 68%;
     padding-bottom: 3%;
@@ -69,3 +75,18 @@
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   }
 </style>
+
+<script>
+  function clicked(name) {
+    var xhr = new XMLHttpRequest();
+    xhr.open("GET", `https://api.countapi.xyz/hit/rice.edu/${name}`);
+    xhr.responseType = "json";
+    xhr.onload = function () {
+      document.getElementById(
+        `like-button-${name}`
+      ).innerHTML = `${this.response.value} likes`;
+      console.log(this.response.value);
+    };
+    xhr.send();
+  }
+</script>

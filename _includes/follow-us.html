@@ -9,15 +9,20 @@
         </div>
         <div class="description">
           <h3>{{media.title}}</h3>
-          <h4><a href="{{media.url}}">{{media.url}}</a></h4>
+          <h4><a href="{{media.url}}">click here to follow</a></h4>
         </div>
         {% if media.icon == "weixin" %}
-        <img style="
+        <img
+          style="
             width: 75px;
             height: 75px;
             margin-left: 20px;
             vertical-align: top;
-          " class="description" src="../img/logos/weixin.png" alt="" />
+          "
+          class="description"
+          src="../img/logos/weixin.png"
+          alt=""
+        />
         {%endif%}
       </div>
       {%endfor%}

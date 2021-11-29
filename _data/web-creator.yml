@@ -8,39 +8,39 @@
     - info:
         name: Zhao Ziyi
         title: Tech Lead
-        picture: "zzy.png"
+        picture: "none.png"
 
     - info:
         name: Hu Yaning
         title: Web Designer
-        picture: "hyn.png"
+        picture: "hyn.JPG"
 
 - row:
     - info:
         name: Liu Yitong
         title: UI Designer
-        picture: "lyt.png"
+        picture: "none.png"
     - info:
         name: Zhang Ruoxin
         title: Frontend Developer
-        picture: "zrx.png"
+        picture: "zrx.jpg"
 
 - row:
     - info:
         name: Xu Ningzhi
         title: Frontend Developer
-        picture: "xnz.png"
+        picture: "none.png"
     - info:
         name: Wang Xincheng
         title: Frontend Developer
-        picture: "wxc.png"
+        picture: "none.png"
 
 - row:
     - info:
         name: Li Xuanchen
         title: Frontend Developer
-        picture: "lxc.png"
+        picture: "none.png"
     - info:
         name: Zhou Yufeng
         title: Backend Developer
-        picture: "zyf.png"
+        picture: "none.png"
