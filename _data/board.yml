@@ -10,7 +10,7 @@
     - info:
         name: Li Shiwei
         title: Graduate President
-        picture: "lsw.png"
+        picture: "lsw.jpg"
 
 # 内务
 - row:
@@ -23,6 +23,17 @@
         title: Internal Affairs Undergraduate Chair
         picture: "ly.JPG"
 
+# 外务
+- row:
+    - info:
+        name: Xin Jiayi
+        title: External Affairs Undergraduate Chair
+        picture: "none.png"
+    - info:
+        name: Chen Ying
+        title: External Affairs Graduate Chair
+        picture: "none.png"
+
 # 宣传
 - row:
     - info:
@@ -32,7 +43,7 @@
     - info:
         name: Li Wenhao
         title: Publicity Graduate Chair
-        picture: "lwh.JPG"
+        picture: "none.png"
 
 # IT
 - row:

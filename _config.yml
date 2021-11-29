@@ -15,7 +15,7 @@ social:
     title: instagram
 
   - title: wechat
-    url: #
+    url: "/img/wechat.jpg"
 
 # Postal address (add as many lines as necessary)
 address:
@@ -29,10 +29,10 @@ permalink: pretty
 follow:
   - icon: weixin
     title: 微信公众号
-    url: RCSSAweixin
+    url: "/img/wechat.jpg"
   - icon: facebook-official
     title: Facebook
-    url: http://www.facebook.com/groups/rcssc/
-  - icon: envelope
-    title: Mailing List 注册（请用Rice邮箱）
-    url: https://mailman.rice.edu/mailman/listinfo/rcsc
+    url: https://www.facebook.com/RiceRCSSA
+  - icon: instagram
+    title: Instagram
+    url: https://www.instagram.com/rice_rcssa/?hl=en
