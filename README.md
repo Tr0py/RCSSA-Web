@@ -26,5 +26,28 @@ Then access 127.0.0.1:4000 in your browser.
 
 ## Demo
 
-[RCSSA Website](http://rcssa.rice.edu/)
+[RCSSA Website](https://rcssa.rice.edu/)
+
+## Maintainance
+
+### Update data
+All updates can be done by modifying the yaml files in _data.
+Make sure you are following the same format.
+
+To add/remove articles shown on the bottom of the landing page, go to
+articles.yml
+
+To add/remove person of the RCSSA board shown on the about page, go to
+board.yml
+
+To add/remove person of RCSSA webiste creators shown on the about page, go to
+board.yml
+
+To add/remove new merch products on shown on the merch page, go to
+merch.yml
+
+### Update social networks
+To add/remove social network links shown on the footer and about page, go to _config.yml and update the links accordingly. Again, make sure you are following the same format.
+
+
 
