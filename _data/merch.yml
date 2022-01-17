@@ -1,28 +1,53 @@
 # stores the merch information
-- name: "HOODIE #1"
-  id: test1
-  front: "Hoodie 01 Front.png"
-  back: "Hoodie 01 Back.png"
-  sizes: "S / M / L / XL / XXL"
-  text: “自叹不如华表鹤，故乡常在白云中。”
+img_dir: "/img/merch/"
 
-- name: "HOODIE #2"
-  id: test2
-  front: "Hoodie 02 Front.png"
-  back: "Hoodie 02 Back.png"
-  sizes: "S / M / L / XL / XXL"
-  text: “猗与漆沮，潜有多鱼。”
+# product id must be unique and have at least 3 characters 
+# in order to make the gallery work properly
+products:
+  - name: "鹤"
+    id: he0
+    sizes: "S / M / L / XL / XXL"
+    text: “自叹不如华表鹤，故乡常在白云中。”
+    pictures:
+      - he_front.png
+      - he_back.png
+      - he_0.png
+      - he_1.png
+      - he_2.png
+      - he_3.jpg
 
-- name: "CANVAS BAG #1"
-  id: test3
-  front: "Canvas Bag 01 Front.png"
-  back: "Canvas Bag 01 Front.png"
-  sizes: "均码"
-  text: “拒绝内卷。”
+  - name: "和"
+    id: yu0
+    front: "Hoodie 02 Front.png"
+    back: "Hoodie 02 Back.png"
+    sizes: "S / M / L / XL / XXL"
+    text: “猗与漆沮，潜有多鱼。”
+    pictures:
+      - yu_front.png
+      - yu_back.png
+      - yu_0.png
+      - he+yu.png
 
-- name: "CANVAS BAG #2"
-  id: test4
-  front: "Canvas Bag 02 Front.png"
-  back: "Canvas Bag 02 Back.png"
-  sizes: "均码"
-  text: “请勿摸鱼。”
+  - name: "内卷"
+    id: neijuan
+    front: "Canvas Bag 01 Front.png"
+    back: "Canvas Bag 01 Front.png"
+    sizes: "均码"
+    text: “拒绝内卷。”
+    pictures:
+      - neijuan_front.png
+      - moyu+neijuan_back.png
+      - neijuan.jpg
+      - neijuan+moyu.jpg
+
+  - name: "摸鱼"
+    id: moyu
+    front: "Canvas Bag 02 Front.png"
+    back: "Canvas Bag 02 Back.png"
+    sizes: "均码"
+    text: “请勿摸鱼。”
+    pictures:
+      - moyu_front.png
+      - moyu+neijuan_back.png
+      - moyu.png
+      - neijuan+moyu.jpg
