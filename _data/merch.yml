@@ -11,10 +11,9 @@ products:
     pictures:
       - he_front.png
       - he_back.png
-      - he_0.png
-      - he_1.png
-      - he_2.png
-      - he_3.jpg
+      - he_0.jpg
+      - he_1.jpg
+      - he_2.jpg
 
   - name: "和"
     id: yu0
@@ -25,8 +24,9 @@ products:
     pictures:
       - yu_front.png
       - yu_back.png
-      - yu_0.png
-      - he+yu.png
+      - yu_0.jpg
+      - yu_1.jpg
+      - yu_2.jpg
 
   - name: "内卷"
     id: neijuan
@@ -36,9 +36,10 @@ products:
     text: “拒绝内卷。”
     pictures:
       - neijuan_front.png
-      - moyu+neijuan_back.png
-      - neijuan.jpg
-      - neijuan+moyu.jpg
+      - moyu_neijuan_back.png
+      - neijuan_0.jpg
+      - moyu_neijuan_0.jpg
+
 
   - name: "摸鱼"
     id: moyu
@@ -48,6 +49,6 @@ products:
     text: “请勿摸鱼。”
     pictures:
       - moyu_front.png
-      - moyu+neijuan_back.png
-      - moyu.png
-      - neijuan+moyu.jpg
+      - moyu_neijuan_back.png
+      - moyu_0.jpg
+      - moyu_neijuan_0.jpg
