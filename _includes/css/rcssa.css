@@ -1289,3 +1289,7 @@ font-size: 23px;
 color: #fff;
 margin: 25px;
 }
+
+.footer-contact-us:hover {
+    color: #{{ site.data.template.color.primary }};
+}
