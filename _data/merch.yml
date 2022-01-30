@@ -9,11 +9,12 @@ products:
     sizes: "S / M / L / XL / XXL"
     text: “自叹不如华表鹤，故乡常在白云中。”
     pictures:
-      - he_front.png
-      - he_back.png
       - he_0.jpg
       - he_1.jpg
       - he_2.jpg
+      - he_front.png
+      - he_back.png
+
 
   - name: "和"
     id: yu0
@@ -22,11 +23,12 @@ products:
     sizes: "S / M / L / XL / XXL"
     text: “猗与漆沮，潜有多鱼。”
     pictures:
-      - yu_front.png
-      - yu_back.png
       - yu_0.jpg
       - yu_1.jpg
       - yu_2.jpg
+      - yu_front.png
+      - yu_back.png
+
 
   - name: "内卷"
     id: neijuan
@@ -35,10 +37,11 @@ products:
     sizes: "均码"
     text: “拒绝内卷。”
     pictures:
-      - neijuan_front.png
-      - moyu_neijuan_back.png
       - neijuan_0.jpg
       - moyu_neijuan_0.jpg
+      - neijuan_front.png
+      - moyu_neijuan_back.png
+
 
 
   - name: "摸鱼"
@@ -48,7 +51,8 @@ products:
     sizes: "均码"
     text: “请勿摸鱼。”
     pictures:
-      - moyu_front.png
-      - moyu_neijuan_back.png
       - moyu_0.jpg
       - moyu_neijuan_0.jpg
+      - moyu_front.png
+      - moyu_neijuan_back.png
+
