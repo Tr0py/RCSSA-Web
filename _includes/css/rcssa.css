@@ -274,15 +274,36 @@ fieldset[disabled] .btn-xl.active {
         font-family: Optima;
         font-style: normal;
         font-weight: bold;
-        font-size: 45px;
+        font-size: 40px;
         line-height: 73px;
         text-align: center;
         /* letter-spacing: 0.1em; */
         color: #ffffff;
         margin-top: -3%;
-        margin-left: 30%;
+        margin-left: 10%;
         margin-bottom: 5%;
-        margin-right: 29%;
+        margin-right: 10%;
+    }
+    .faq_container {
+        padding-left: 5%;
+        margin-top: -5%;
+    }
+    .question {
+        margin-left: 2%;
+        padding-right: 5%;
+    }
+    .collapsible {
+        font-family: Optima;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 50px;
+        letter-spacing: 0.1em;
+        color: #ffffff;
+        display: inline;
+        text-align: left;
+        background-color: transparent;
+        border: none;
     }
 }
 
@@ -321,6 +342,31 @@ fieldset[disabled] .btn-xl.active {
         margin-bottom: 5%;
         margin-right: 29%;
     }
+    .faq_container {
+        padding-left: 25%;
+        margin-top: -5%;
+    }
+    .question {
+        margin-left: 5%;
+        padding-right: 10%;
+    }
+    .collapsible {
+        font-family: Optima;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 50px;
+        letter-spacing: 0.1em;
+        color: #ffffff;
+        display: inline;
+        text-align: left;
+        background-color: transparent;
+        border: none;
+    }
+}
+
+.content-text {
+    font-size: 18px;
 }
 
 .wiess-bg {
@@ -516,7 +562,7 @@ header .t-container .p2 {
     font-family: Optima;
     font-style: normal;
     font-weight: bold;
-    font-size: 3.5vw;
+    font-size: 4vw;
     line-height: 97px;
     letter-spacing: 3px;
     color: #FFFF;
