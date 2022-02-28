@@ -253,7 +253,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 @media(max-width:767px) {
-    .title {
+    .container .title {
         position: relative;
         left: 5%;
         display: table;
@@ -308,7 +308,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 @media(min-width:768px) {
-    .title {
+    .container .title {
         position: absolute;
         left: 70%;
         /* right: 10%; */
