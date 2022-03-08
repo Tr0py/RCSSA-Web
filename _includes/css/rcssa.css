@@ -600,13 +600,24 @@ header .intro-text .intro-lead-in {
 }
 
 header .intro-text .intro-heading {
-    margin-bottom: 200px;
+    /* margin-bottom: 200px; */
     #text-transform: uppercase;
-    font-family: {{ site.data.template.font.primary }};
-    font-size: 50px;
+    /* font-family: {{ site.data.template.font.primary }}; */
+    /* font-size: 50px; */
+    font-size: 5vw;
     font-weight: 700;
     line-height: 50px;
-    margin-right: 35%;
+
+    /* margin-right: 35%; */
+    /* margin-right: 35%;*/
+
+    margin: 0;
+    position: relative;
+    top: 1vw;
+    right: 12vw;
+    letter-spacing: 0.25vw;
+    font-family: optima;
+    font-family:optima;
 }
 
 @media(min-width:768px) {
@@ -1375,19 +1386,75 @@ font-weight: bold;
 }
 
 
+
 .about-description {
+    /* width: 80%; */
     font-family: Optima;
     font-style: normal;
     font-weight: normal;
-    font-size: 22px;
-    line-height: 40px;
+    font-size: 1.5vw;
+    line-height: 3vw;
     color: #67748E;
-    margin-right: 100px;
+
 }
 
 .about-logo {
-    width: 400px;
+    max-width: 30vw;
+    position: relative;
+    top: 1vw;
+    /* right: 35vw; */
+    /* left: 35vw; */
+    /* text-align: center; */
+    height:auto;
+    /* margin-right: 100px; */
 }
+
+.about-logo {
+    /* width: 400px; */
+    max-width: 30vw;
+    position: relative;
+    top: 1vw;
+    height: auto;
+}
+
+@media screen and (max-width: 1000px) {
+    .about-logo{
+        width: 30vw;
+        position:relative;
+        right: 35%;
+        left: 35%;
+    }
+
+    .about-description {
+        font-family: Optima;
+        width: 86%;
+        font-size: 3vw;
+        margin-left: 7vw;
+        margin-right: 7vw;
+        line-height: 4vw;
+        color: #67748E;
+        /* margin-right: 100px; */
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .about-logo {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+    .about-logo {
+        width: 30vw;
+        position: relative;
+        right: 35%;
+        left: 35%;
+    }
+    .about-description {
+        width: 86%;
+       margin-left: 7vw;
+       margin-right: 7vw;
+       font-size: 3vw;
+    line-height: 4vw;
+      }
+  }
 
 .friends-text {
     color: white;
