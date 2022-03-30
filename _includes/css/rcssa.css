@@ -1347,6 +1347,7 @@ height: 29vw;
     border-radius: 8px;
     margin: auto;
     margin-top: 3%;
+    font-size: 2vw;
 }
 
 #name{
@@ -1359,6 +1360,7 @@ height: 29vw;
     box-sizing: border-box;
     border-radius: 8px;
     margin-bottom: 1vw;
+    font-size: 2vw;
 }
 
 #email {
@@ -1370,6 +1372,7 @@ height: 29vw;
     border: 1px solid #D2D6DA;
     box-sizing: border-box;
     border-radius: 8px;
+    font-size: 2vw;
 }
 
 .center {
