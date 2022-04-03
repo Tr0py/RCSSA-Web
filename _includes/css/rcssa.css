@@ -976,7 +976,7 @@ section h3.section-subheading {
     margin: 0 auto;
     border: 3px solid #fff;
     width: 400px;
-    height: 300px;
+    /* height: 300px; */
     display: inline;
 }
 
