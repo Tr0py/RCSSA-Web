@@ -36,3 +36,6 @@ Icon
 .Spotlight-V100
 .Trashes
 .*
+
+# Ignore Gembile lock 
+Gemfile.lock
