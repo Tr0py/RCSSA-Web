@@ -189,6 +189,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default {
+    /* width: 100vw; */
     border-color: transparent;
     background-color: #222;
 }
@@ -1567,4 +1568,20 @@ section#contact-us .card-item {
     section#contact-us .card-item {
         height: 44vw;
     }
+}
+
+.flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-center-items {
+    justify-items: center; 
+    justify-content: center; 
+    justify-self: center; 
+    display: flex;
+}
+
+.row {
+    margin: auto;
 }
