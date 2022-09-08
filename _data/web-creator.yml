@@ -8,7 +8,7 @@
     - info:
         name: Zhao Ziyi
         title: Tech Lead
-        picture: "none.png"
+        picture: "zzy.png"
 
     - info:
         name: Hu Yaning
@@ -19,7 +19,7 @@
     - info:
         name: Liu Yitong
         title: UI Designer
-        picture: "none.png"
+        picture: "lyt.jpeg"
     - info:
         name: Zhang Ruoxin
         title: Frontend Developer
@@ -29,7 +29,7 @@
     - info:
         name: Xu Ningzhi
         title: Frontend Developer
-        picture: "none.png"
+        picture: "xnz.png"
     - info:
         name: Wang Xincheng
         title: Frontend Developer
@@ -39,7 +39,7 @@
     - info:
         name: Li Xuanchen
         title: Frontend Developer
-        picture: "none.png"
+        picture: "lxc.jpeg"
     - info:
         name: Zhou Yufeng
         title: Backend Developer
