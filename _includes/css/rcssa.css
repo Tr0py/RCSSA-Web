@@ -392,6 +392,10 @@ fieldset[disabled] .btn-xl.active {
     letter-spacing: 0.1em;
 }
 
+.circle a {
+    color: #fff;
+}
+
 h2.link {
     font-family: Optima;
     font-style: normal;

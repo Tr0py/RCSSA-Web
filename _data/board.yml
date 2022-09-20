@@ -4,50 +4,50 @@
 # 主席
 - row:
     - info:
-        name: Li Yifei
+        name: 沈可欣
         title: Undergraduate President
-        picture: "lyf.jpg"
+        picture: "skx.jpg"
     - info:
-        name: Li Shiwei
+        name: 袁义高
         title: Graduate President
-        picture: "lsw.jpg"
+        picture: "yyg.jpg"
 
 # 内务
 - row:
     - info:
-        name: Niu Yihan
+        name: 杨依伊
         title: Internal Affairs Undergraduate Chair
-        picture: "nyh.jpg"
+        picture: "yyy.jpg"
     - info:
-        name: Lu Yan
+        name: 张翘沐
         title: Internal Affairs Graduate Chair
-        picture: "ly.JPG"
+        picture: "zqm.jpg"
 
 # 外务
 - row:
     - info:
-        name: Xin Jiayi
+        name: 牛奕涵
         title: External Affairs Undergraduate Chair
-        picture: "none.png"
+        picture: "nyh.jpg"
     - info:
-        name: Chen Ying
+        name: 李世炜
         title: External Affairs Graduate Chair
-        picture: "none.png"
+        picture: "lsw.jpg"
 
 # 宣传
 - row:
     - info:
-        name: Hu Yaning
+        name: 李天舒
         title: Publicity Undergraduate Chair
-        picture: "hyn.JPG"
+        picture: "lts.jpg"
     - info:
-        name: Li Wenhao
+        name: 张泰阁
         title: Publicity Graduate Chair
-        picture: "lwh.jpg"
+        picture: "ztg.jpg"
 
 # IT
 - row:
     - info:
-        name: Li Yueqian
-        title: IT Chair
+        name: 李越千
+        title: IT Team Lead
         picture: "lyq.jpg"
