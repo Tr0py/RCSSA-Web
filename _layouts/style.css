@@ -8,4 +8,6 @@
 {% include new_students/useful_links.css %}
 {% include new_students/arrival.css %}
 {% include new_students/faq.css %}
+{% include merch_page/merch_header.css %}
+{% include merch_page/products.css %}
 {{ content }}
