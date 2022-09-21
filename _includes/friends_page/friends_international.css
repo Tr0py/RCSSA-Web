@@ -1,0 +1,46 @@
+.friends-vl {
+    background-color: white;
+    margin: auto;
+    height: 100%;
+    width: 1px;
+}
+
+.row {
+    margin: auto;
+}
+.flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex-center-items {
+    justify-items: center; 
+    justify-content: center; 
+    justify-self: center; 
+    display: flex;
+}
+.friends-li {
+    padding-top: 2%;
+
+}
+.friends-li .ul {
+    background-color: lightskyblue;
+}
+.friends-li .a {
+    color: white;
+}
+.friends-li .a  :hover{
+    color: lightskyblue;
+}
+.friends-link {
+    font-size: medium;
+    color: white;
+}
+.friends-link:hover{
+    color: lightskyblue;
+}
+.friends-link:focus{
+    color: lightskyblue;
+}
+.friends-link:active{
+    color: lightskyblue;
+}
