@@ -1,15 +1,11 @@
-<section id="arrival" class="bg-dark-red">
+<section id="arrival" class="faq-section">
   <div class="container">
     <div class="faq_container">
       <h2 class="faq">FAQ</h2>
       <div class="question">
         <div class="row">
           <button type="button" class="collapsible">
-            <img
-              class="down-arrow"
-              src="../img/new_students/Text and Icon.png"
-              alt="see more"
-            />
+            <img class="down-arrow" />
             如何加入RCSSA?
           </button>
 
@@ -26,11 +22,7 @@
       <div class="question">
         <div class="row">
           <button type="button" class="collapsible">
-            <img
-              class="down-arrow"
-              src="../img/new_students/Text and Icon.png"
-              alt="see more"
-            />
+            <img class="down-arrow"/>
             官方网站和公众号有什么不同
           </button>
 
@@ -47,11 +39,7 @@
       <div class="question">
         <div class="row">
           <button type="button" class="collapsible">
-            <img
-              class="down-arrow"
-              src="../img/new_students/Text and Icon.png"
-              alt="see more"
-            />
+            <img class="down-arrow"/>
             学校的疫情状况如何？有哪些防疫措施需要我遵守？
           </button>
 
@@ -69,11 +57,7 @@
       <div class="question">
       <div class="row">
         <button type="button" class="collapsible">
-          <img
-            class="down-arrow"
-            src="../img/new_students/Text and Icon.png"
-            alt="see more"
-          />
+          <img class="down-arrow"/>
           怎样缴纳学费最方便，划算？
         </button>
 
@@ -90,11 +74,7 @@
       <div class="question">
         <div class="row">
           <button type="button" class="collapsible">
-            <img
-              class="down-arrow"
-              src="../img/new_students/Text and Icon.png"
-              alt="see more"
-            />
+            <img class="down-arrow"/>
             怎样知道我应该上哪些课程？哪些课程学长学姐们推荐/不推荐？
           </button>
 
@@ -112,11 +92,7 @@
       <div class="question">
         <div class="row">
           <button type="button" class="collapsible">
-            <img
-              class="down-arrow"
-              src="../img/new_students/Text and Icon.png"
-              alt="see more"
-            />
+            <img class="down-arrow"/>
             我有其他的问题！
           </button>
 
@@ -131,61 +107,4 @@
       </div>
     </div>
   </div>
-
-  <style>
-    h2.faq {
-      font-family: Optima;
-      font-style: normal;
-      font-weight: bold;
-      font-size: 60px;
-      line-height: 97px;
-      letter-spacing: 0.1em;
-
-      margin-bottom: 20px;
-      color: #ffffff;
-    }
-
-
-    img.down-arrow {
-      margin-right: 10px;
-      width: 24px;
-      height: 14px;
-    }
-
-    .active,
-    .collapsible:hover {
-      background-color: #660127;
-    }
-
-    .content {
-      padding: 0 18px;
-      max-height: 0;
-      overflow: hidden;
-      transition: max-height 0.2s ease-out;
-      background-color: transparent;
-      font-family: Optima;
-      font-style: normal;
-      font-weight: bold;
-      color: #ffffff;
-    }
-
-  </style>
-
-  <script>
-    var coll = document.getElementsByClassName("collapsible");
-    var i;
-    for (i = 0; i < coll.length; i++) {
-      coll[i].addEventListener("click", function () {
-        this.classList.toggle("active");
-        var content = this.nextElementSibling;
-        if (content.style.maxHeight) {
-          content.style.maxHeight = null;
-        } else {
-          console.log(content.scrollHeight);
-          content.style.maxHeight = content.scrollHeight + "px";
-        }
-      });
-    }
-    console.log("done");
-  </script>
 </section>

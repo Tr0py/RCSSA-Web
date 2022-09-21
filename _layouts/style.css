@@ -4,4 +4,8 @@
 {% include home_page/home_header.css %}
 {% include shared/footer.css %}
 {% include shared/nav_bar.css %}
+{% include new_students/new_students_header.css %}
+{% include new_students/useful_links.css %}
+{% include new_students/arrival.css %}
+{% include new_students/faq.css %}
 {{ content }}
