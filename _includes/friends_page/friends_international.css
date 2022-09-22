@@ -1,46 +1,59 @@
-.friends-vl {
-    background-color: white;
-    margin: auto;
-    height: 100%;
-    width: 1px;
+.association-section{
+    background-color: #392954;
 }
-
-.row {
+.association-section .title{
+    padding-top:15vh; 
+    padding-bottom: 10vh; 
     margin: auto;
 }
-.flex-wrap {
-    display: flex;
-    flex-wrap: wrap;
+.association-section .row{
+    margin: auto;
 }
-.flex-center-items {
-    justify-items: center; 
-    justify-content: center; 
-    justify-self: center; 
-    display: flex;
-}
-.friends-li {
-    padding-top: 2%;
-
-}
-.friends-li .ul {
-    background-color: lightskyblue;
-}
-.friends-li .a {
+.association-section h1{
     color: white;
 }
-.friends-li .a  :hover{
+.association-section .flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 15vh; 
+    margin: auto;
+}
+.association-section .friends-vl {
+    height: 100%; 
+    margin-right: -10px;
+}
+.association-section .friends-li {
+    padding-top: 2%;
+    color: white; 
+    margin-left: -10px; 
+    line-height: 270%;
+
+}
+.association-section .friends-li .ul {
+    background-color: lightskyblue;
+}
+.association-section .friends-li .a {
+    color: white;
+}
+.association-section .friends-li .a  :hover{
     color: lightskyblue;
 }
-.friends-link {
+.association-section .friends-link {
     font-size: medium;
     color: white;
 }
-.friends-link:hover{
+.association-section .friends-link:hover{
     color: lightskyblue;
 }
-.friends-link:focus{
+.association-section .friends-link:focus{
     color: lightskyblue;
 }
-.friends-link:active{
+.association-section .friends-link:active{
     color: lightskyblue;
+}
+.association-section .rice-owl{
+    content: url('../img/rice-owl.png');
+    margin: auto; 
+    height: 300px; 
+    display: flex;
 }

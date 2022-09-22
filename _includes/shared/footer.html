@@ -7,10 +7,7 @@
       <span class="footer-text"
         >{{ 'now' | date: "%Y" }} {{site.title}} @ Rice University</span
       >
-      <ul
-        class="list-inline social-buttons"
-        style="display: inline-block; text-align: center"
-      >
+      <ul class="list-inline social-buttons">
         {% for network in site.social %}
         <li>
           <a href="{{network.url}}">
