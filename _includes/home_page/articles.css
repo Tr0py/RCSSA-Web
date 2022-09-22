@@ -1,15 +1,15 @@
-section {
+section .articles-section{
     padding: 100px 0;
 }
-section h2.section-heading {
+.articles-section h2.section-heading {
     margin-top: 0;
     margin-bottom: 15px;
     font-size: 40px;
 }
-.text-muted {
+.articles-section .text-muted {
     color: #{{ site.data.template.color.muted }};
 }
-section h2.p4-section-heading {
+.articles-section h2.p4-section-heading {
     margin-top: -100px;
     margin-bottom: 100px;
     font-size: 60px;
@@ -18,7 +18,7 @@ section h2.p4-section-heading {
     position: relative;
     text-transform:none;
 }
-section h3.section-subheading {
+.articles-section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
     font-family: {{ site.data.template.font.secondary }};
@@ -26,10 +26,10 @@ section h3.section-subheading {
     font-style: italic;
     font-weight: 400;
 }
-.row {
+.articles-section .row {
     margin: auto;
 }
-.card-item {
+.articles-section .card-item {
     margin-bottom: 2vh;
     margin-top: 2vh;
     margin-left: 50px;
