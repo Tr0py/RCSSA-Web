@@ -1,6 +1,6 @@
 <!-- Team Section -->
-<section id="team" class="bg-orange">
-  <div class="container" style="padding-right: 10%; position: relative">
+<section id="team" class="about-team">
+  <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
         <h2 class="p4-section-heading">RCSSA Board</h2>
@@ -39,17 +39,8 @@
     </div>
 
     {% endfor %}
-    <button
-      style="
-        position: absolute;
-        top: 50%;
-        right: -4%;
-        background-color: #ce3c00;
-        border-style: none;
-      "
-      onclick="myFunction()"
-    >
-      <img src="/img/team/arrow.png" />
+    <button class="left-arrow" onclick="myFunction()">
+      <img class="arrow-logo" />
     </button>
   </div>
 </section>

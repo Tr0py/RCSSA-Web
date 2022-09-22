@@ -14,4 +14,10 @@
 {% include friends_page/friends_international.css %}
 {% include friends_page/friends_alumni.css %}
 {% include friends_page/friends_clubs.css %}
+{% include about_page/about_header.css %}
+{% include about_page/short-intro.css %}
+{% include about_page/team.css %}
+{% include about_page/tech_team.css %}
+{% include about_page/follow-us.css %}
+{% include about_page/contact-us.css %}
 {{ content }}
