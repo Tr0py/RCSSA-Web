@@ -1,16 +1,7 @@
-var coll = document.getElementsByClassName("collapsible");
-var i;
-
-
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function () {
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.maxHeight) {
-      content.style.maxHeight = null;
-    } else {
-      console.log(content.scrollHeight);
-      content.style.maxHeight = content.scrollHeight + "px";
-    }
-  });
-}
+$('a').click(function(){
+  if($(this).find('img').hasClass('right-arrow')){
+    $(this).find('img').removeClass('right-arrow').addClass('down-arrow');
+  } else {
+    $(this).find('img').removeClass('down-arrow').addClass('right-arrow');
+  }
+});

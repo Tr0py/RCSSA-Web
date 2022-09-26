@@ -2,7 +2,11 @@
     background-color: #71002B;
 }
 .faq-section .down-arrow{
-    content: url('../img/new_students/Text and Icon.png');
+    content: url('../img/new_students/down_arrow.png');
+}
+.faq-section .right-arrow{
+    content: url('../img/new_students/down_arrow.png');
+    transform: rotate(270deg);
 }
 .faq-section h2.faq {
     font-family: Optima;
@@ -17,23 +21,15 @@
 }
 
 
-.faq-section img.down-arrow {
+.faq-section img.down-arrow，img.right-arrow {
     margin-right: 10px;
     width: 24px;
     height: 14px;
 }
 
-.faq-section .active,
-.collapsible:hover {
-    background-color: #660127;
-}
-
-.faq-section .content {
-    padding: 0 18px;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
-    background-color: transparent;
+.faq-section .content-text {
+    margin-left: 10%;
+    padding-right: 5%;
     font-family: Optima;
     font-style: normal;
     font-weight: bold;
