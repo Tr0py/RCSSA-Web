@@ -1,0 +1,8 @@
+function myFunction() {
+    document.getElementById("team").style.display = "none";
+    document.getElementById("web-creator").style.display = "block";
+}
+function myFunction_1() {
+    document.getElementById("team").style.display = "block";
+    document.getElementById("web-creator").style.display = "none";
+}

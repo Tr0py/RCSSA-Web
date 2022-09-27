@@ -1,0 +1,40 @@
+section .articles-section{
+    padding: 100px 0;
+}
+.articles-section h2.section-heading {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+.articles-section .text-muted {
+    color: #{{ site.data.template.color.muted }};
+}
+.articles-section h2.p4-section-heading {
+    margin-top: -100px;
+    margin-bottom: 100px;
+    font-size: 60px;
+    color:#fff;
+    font-family:optima, bold, sans-serif; 
+    position: relative;
+    text-transform:none;
+}
+.articles-section h3.section-subheading {
+    margin-bottom: 75px;
+    text-transform: none;
+    font-family: {{ site.data.template.font.secondary }};
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+}
+.articles-section .row {
+    margin: auto;
+}
+.articles-section .card-item {
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
+    background-color: rgba(48,56,100, 0.1);
+    padding: 12px;
+}
