@@ -20,4 +20,3 @@
 {% include about_page/tech_team.css %}
 {% include about_page/follow-us.css %}
 {% include about_page/contact-us.css %}
-{{ content }}
