@@ -1,4 +1,4 @@
-{% include css/bootstrap.min.css %}
+{% include shared/bootstrap.min.css %}
 {% include home_page/articles.css %}
 {% include home_page/welcome.css %}
 {% include home_page/home_header.css %}
