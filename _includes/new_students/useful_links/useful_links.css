@@ -39,6 +39,10 @@
     /* identical to box height */
     color: #ffffff;
 }
+.useful_links-section .linkList{
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
 @media(max-width:767px) {
     .useful_links-section .container .title {
         position: relative;

@@ -5,6 +5,9 @@
     background-repeat: no-repeat;
     position: relative
 }
+.contact-us .container{
+    margin-top: 100px;
+}
 .contact-us .contact {
     position: absolute;
     left: 50%;
@@ -22,7 +25,9 @@
     height: 29vw;
     background-color: rgba(255,255,255,.8);
     margin: auto;
+    border-radius: 20px;
     margin-top: 4.6vw;
+    margin-bottom: 4.6vw;
 }
 
 

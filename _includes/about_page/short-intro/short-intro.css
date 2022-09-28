@@ -1,5 +1,6 @@
-.about-intro .padding {
-    padding-top: 10vh;
+.about-intro .container {
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 .about-intro .description1,.description2{
     /* width: 80%; */

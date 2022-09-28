@@ -18,7 +18,10 @@
     font-weight: bold;
     letter-spacing: 0.1em;
 }
-
+.arrival-section .arrival-margin{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
 .arrival-section .circle a {
     color: #fff;
 }

@@ -1,7 +1,11 @@
 .prodcuts-section .row{
   margin-left: 10%; 
-  margin-right: 10%; 
-  margin-bottom: 20%；
+  margin-right: 10%;
+  margin-top: 100px; 
+  margin-bottom: 100px;
+}
+.prodcuts-section .container{
+  margin-bottom: 100px;
 }
 .prodcuts-section .product-name {
     margin-bottom: 10%;

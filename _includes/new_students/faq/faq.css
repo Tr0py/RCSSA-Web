@@ -1,6 +1,10 @@
 .faq-section {
     background-color: #71002B;
 }
+.faq-section .container{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
 .faq-section .down-arrow{
     content: url('../img/new_students/down_arrow.png');
 }

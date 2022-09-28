@@ -10,7 +10,12 @@
     margin: auto;
 }
 .association-section h1{
-    color: white;
+    color: white;    
+    font-family: Optima, Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    line-height: 160%;
+    text-align:text-justify;
+    text-justify: inter-ideograph;
 }
 .association-section .flex-wrap {
     display: flex;
@@ -19,8 +24,10 @@
     margin: auto;
 }
 .association-section .friends-vl {
-    height: 100%; 
-    margin-right: -10px;
+    background-color: white;
+    margin: auto;
+    height: 100%;
+    width: 1px;
 }
 .association-section .friends-li {
     padding-top: 2%;

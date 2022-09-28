@@ -8,6 +8,7 @@
 {% include new_students/useful_links/useful_links.css %}
 {% include new_students/arrival/arrival.css %}
 {% include new_students/faq/faq.css %}
+{% include new_students/handbook/handbook.css %}
 
 {% include friends_page/friends_header/friends_header.css %}
 {% include friends_page/friends_international/friends_international.css %}
