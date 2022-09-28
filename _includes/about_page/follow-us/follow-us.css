@@ -54,7 +54,9 @@
         order: 1;
     }
 }
-
+.follow-us h1{
+    font-weight: 700;
+}
 .follow-us h3,
 .follow-us h4 {
     margin: 0 0;
