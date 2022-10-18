@@ -4,7 +4,8 @@
     margin: auto;
 }
 .clubs-section .title{
-    font-weight: bold;
+    font-weight:700;
+    letter-spacing: 1px;
     color: #392954;
 }
 .clubs-section .friends-card1 {
@@ -35,4 +36,8 @@
 }
 .clubs-section p{
     line-height: 200%;
+}
+.clubs-section .section2 h3{
+    font-weight: 550;
+    word-spacing: 10px;
 }

@@ -27,7 +27,7 @@
     margin: auto;
     border-radius: 20px;
     margin-top: 4.6vw;
-    margin-bottom: 4.6vw;
+    margin-bottom: 120px;
 }
 
 
@@ -54,6 +54,10 @@
 }
 .contact-us .btn-xl {
     font-size: 1.1vw;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 20px;
     background: #CE3C00;
     padding: 0.781vw;
     margin-top: 1%;

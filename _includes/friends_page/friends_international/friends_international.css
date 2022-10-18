@@ -23,6 +23,9 @@
     padding-bottom: 15vh; 
     margin: auto;
 }
+.association-section .container {
+    margin-left: 118px;
+}
 .association-section .friends-vl {
     background-color: white;
     margin: auto;
@@ -32,7 +35,7 @@
 .association-section .friends-li {
     padding-top: 2%;
     color: white; 
-    margin-left: -10px; 
+    margin-left: -25px; 
     line-height: 270%;
 
 }

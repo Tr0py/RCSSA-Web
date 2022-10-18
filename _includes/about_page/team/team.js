@@ -1,8 +1,8 @@
-function myFunction() {
+function turnLeft() {
     document.getElementById("team").style.display = "none";
     document.getElementById("web-creator").style.display = "block";
 }
-function myFunction_1() {
+function turnRight() {
     document.getElementById("team").style.display = "block";
     document.getElementById("web-creator").style.display = "none";
 }

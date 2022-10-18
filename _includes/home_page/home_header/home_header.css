@@ -22,6 +22,7 @@ header .padding {
 }
 .home .s-rectangle p{
     font-size: 7vw; 
+    padding-top: 15px;
     font-family: optima; 
     letter-spacing: 0.75vw
 }
@@ -38,6 +39,7 @@ header .padding {
     font-size: 2.5vw;
     font-weight: 400;
     font-family: optima;
+    line-height: 1.6;
 }
 .home .b-rectangle .title {
     margin: 0;

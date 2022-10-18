@@ -13,6 +13,9 @@ section .welcome-section{
     padding-bottom: 50px;
     color: #{{ site.data.template.color.white }};
 }
+.welcome-section .text-center{
+    padding-top: 70px;
+}
 .welcome-section 
 h1,h2,h3{
     font-family: Optima, Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -21,10 +24,18 @@ h1,h2,h3{
     text-align:text-justify;
     text-justify: inter-ideograph;
 }
+.welcome-section h2{
+    font-weight: 700;
+}
 .welcome-section h3 {
+    padding-top: 10px;
     font-weight: 100;
     margin: auto; 
     line-height: 170%;
+}
+.welcome-section .eng-text {
+    font-weight: 90;
+    line-height: 140%;
 }
 
 .welcome-section .about-btn {
@@ -33,9 +44,8 @@ h1,h2,h3{
     border-color: #2773FF;
     border-radius: 20px;;
     text-transform: uppercase;
-    font-family: 'Optima, Montserrat,Helvetica,Arial,sans-serif';
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 570;
     color: #fff;
     background-color: #{{ site.data.template.color.primary }};
 }
