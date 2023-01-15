@@ -15,39 +15,39 @@
 # 内务
 - row:
     - info:
-        name: 杨依伊
-        title: Internal Affairs Undergraduate Chair
-        picture: "yyy.jpg"
+        name: 王若愚
+        title: Vice President of Internal Affairs (Undergraduate)
+        picture: "lyq.jpg"
     - info:
-        name: 张翘沐
-        title: Internal Affairs Graduate Chair
-        picture: "zqm.jpg"
+        name: 程一容
+        title: Vice President of Internal Affairs (Graduate)
+        picture: "lyq.jpg"
 
 # 外务
 - row:
     - info:
         name: 牛奕涵
-        title: External Affairs Undergraduate Chair
+        title: Vice President of External Affairs (Undergraduate)
         picture: "nyh.jpg"
     - info:
-        name: 李世炜
-        title: External Affairs Graduate Chair
-        picture: "lsw.jpg"
+        name: 褚彦菲
+        title: Vice President of External Affairs (Undergraduate)
+        picture: "lyq.jpg"
 
 # 宣传
 - row:
     - info:
         name: 李天舒
-        title: Publicity Undergraduate Chair
+        title: Vice President of Publicity (Undergraduate)
         picture: "lts.jpg"
-    - info:
-        name: 张泰阁
-        title: Publicity Graduate Chair
-        picture: "ztg.jpg"
 
 # IT
 - row:
     - info:
-        name: 李越千
-        title: IT Team Lead
+        name: 黄戈
+        title: Vice President of IT (Graduate)
+        picture: "lyq.jpg"
+    - info:
+        name: 姚嘉文
+        title: Vice President of IT (Undergraduate)
         picture: "lyq.jpg"

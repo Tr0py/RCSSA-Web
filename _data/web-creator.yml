@@ -4,6 +4,48 @@
         name: Li Yueqian
         title: Team Lead
         picture: "lyq.jpg"
+# 2022-2023 crew
+- row:
+    - info:
+        name: Ge Huang
+        title: Team Lead
+        picture: "lyq.jpg"
+
+    - info:
+        name: Yao Jiawen
+        title: Team Lead
+        picture: "lyq.jpg"
+- row:
+    - info:
+        name: Wang Yankai
+        title: Airport Pickup Platform Backend Developer
+        picture: "none.png"
+
+    - info:
+        name: He Jiaqi
+        title: Web Developer
+        picture: "none.png"
+- row:
+    - info:
+        name: Yuan Qingxin
+        title: Airport Pickup Platform Developer
+        picture: "none.png"
+
+    - info:
+        name: Huang Yuening
+        title: Airport Pickup Platform Frontend Developer
+        picture: "none.png"
+- row:
+    - info:
+        name: Chencui Yuanxiu
+        title: UI Designer
+        picture: "none.png"
+
+    - info:
+        name: Sun Haiming
+        title: Airport Pickup Platform Developer
+        picture: "none.png"
+# previous
 - row:
     - info:
         name: Zhao Ziyi
