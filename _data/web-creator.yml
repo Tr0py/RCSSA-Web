@@ -1,10 +1,14 @@
 # information about website creators
+# 2022-2023 crew
 - row:
     - info:
         name: Li Yueqian
-        title: Team Lead
+        title: Web Designer & Intiator
         picture: "lyq.jpg"
-# 2022-2023 crew
+    - info:
+        name: Hu Yaning
+        title: Web Designer & Intiator
+        picture: "hyn.JPG"
 - row:
     - info:
         name: Ge Huang
@@ -15,6 +19,15 @@
         name: Yao Jiawen
         title: Team Lead
         picture: "yjw.jpeg"
+- row:
+    - info:
+        name: Liu Yitong
+        title: UI Designer
+        picture: "lyt.jpeg"
+    - info:
+        name: Zeng Weijian
+        title: Web Developer
+        picture: "zwj.jpg"
 - row:
     - info:
         name: Wang Yankai
@@ -53,19 +66,9 @@
         picture: "zzy.png"
 
     - info:
-        name: Hu Yaning
-        title: Web Designer
-        picture: "hyn.JPG"
-
-- row:
-    - info:
-        name: Liu Yitong
-        title: UI Designer
-        picture: "lyt.jpeg"
-    - info:
-        name: Zhang Ruoxin
-        title: Frontend Developer
-        picture: "zrx.jpg"
+        name: Zhou Yufeng
+        title: Backend Developer
+        picture: "none.png"
 
 - row:
     - info:
@@ -83,6 +86,15 @@
         title: Frontend Developer
         picture: "lxc.jpeg"
     - info:
-        name: Zhou Yufeng
+        name: Zhang Ruoxin
+        title: Frontend Developer
+        picture: "zrx.jpg"
+- row:
+    - info:
+        name: Weijian Zeng
+        title: Frontend Designer
+        picture: "zwj1.jpg"
+    - info:
+        name: Zeng Weijian
         title: Backend Developer
-        picture: "none.png"
+        picture: "zwj2.jpg"
