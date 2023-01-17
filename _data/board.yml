@@ -17,11 +17,11 @@
     - info:
         name: 王若愚
         title: Vice President of Internal Affairs (Undergraduate)
-        picture: "lyq.jpg"
+        picture: "yuki.jpeg"
     - info:
         name: 程一容
         title: Vice President of Internal Affairs (Graduate)
-        picture: "lyq.jpg"
+        picture: "cyr.jpeg"
 
 # 外务
 - row:
@@ -32,7 +32,7 @@
     - info:
         name: 褚彦菲
         title: Vice President of External Affairs (Undergraduate)
-        picture: "lyq.jpg"
+        picture: "christine.jpg"
 
 # 宣传
 - row:
@@ -46,8 +46,8 @@
     - info:
         name: 黄戈
         title: Vice President of IT (Graduate)
-        picture: "lyq.jpg"
+        picture: "gh.jpg"
     - info:
-        name: 姚嘉文
+        name: 姚佳文
         title: Vice President of IT (Undergraduate)
-        picture: "lyq.jpg"
+        picture: "yjw.jpeg"
