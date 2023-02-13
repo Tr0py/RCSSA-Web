@@ -9,7 +9,6 @@ $(function () {
       // get values from FORM
       var name = $("input#name").val();
       var email = $("input#email").val();
-      var phone = $("input#phone").val();
       var message = $("textarea#message").val();
       var firstName = name; // For Success/Failure Message
       // Check for white space in name for Success/Fail message
@@ -29,10 +28,11 @@ $(function () {
         method: "GET",
         dataType: "json",
         cache: false,
-        async: false,
+        async: true,
         success: function () {
           // Success message
           $("#success").html("<strong> Message sent!").append("</strong>");
+          document.getElementById("success").style.backgroundColor = "green";
           //   $("#success").html("<div class='alert alert-success'>");
           //   $("#success > .alert-success")
           //     .html(
@@ -119,7 +119,13 @@ $(function () {
   });
 });
 
-/*When clicking on Full hide fail/success boxes */
-$("#name").focus(function () {
-  $("#success").html("");
+/* Set sending message */
+$("#success").click(function () {
+  $("#success").html("Sending...");
 });
+
+// Why??
+/*When clicking on Full hide fail/success boxes */
+// $("#name").focus(function () {
+//   $("#success").html("");
+// });
