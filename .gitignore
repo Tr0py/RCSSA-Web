@@ -39,3 +39,4 @@ Icon
 
 # Ignore Gembile lock 
 Gemfile.lock
+vendor/
