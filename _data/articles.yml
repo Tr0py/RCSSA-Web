@@ -2,24 +2,24 @@
 # the `description` field supports markdown syntax.
 # be careful to indent correctly. (\t)
 
-- title: 【官方】莱斯大学2022年新生见面会报名开始啦！
-  thumbnail: zhaoxin.jpg
-  link: https://mp.weixin.qq.com/s/KdKV0ZN1vP-kg-PgdGICbg
-  description: |
-    2022入学的新生们
-    准备好迎接新的人生旅程了吗？
-    2022-23年的新生见面会来啦！
+- title: 【活动】Rice乒乓球锦标赛报名开始啦！
+  thumbnail: pingpong.png
+  link: https://mp.weixin.qq.com/s/rUDVI-y61w6A1XplEGI-EA
+  description: |  
+    这个秋天
+    莱斯大学乒乓球锦标赛来了！
 
-- title: 【招新】 | RCSSA面向全体莱斯中国学生招新！
-  thumbnail: xinsheng.jpg
-  link: https://mp.weixin.qq.com/s/LRv_P6hZcV6AXtnglA-Zqg
+- title: 【活动】中秋游园会最后一次抢票来啦！！
+  thumbnail: mid.png
+  link: https://mp.weixin.qq.com/s/AtIsRxIKQtwK7UJzImBEQw
   description: |
-    好消息！RCSSA中国学生与学者联合会
-    开始招新啦！
+    还有四天就是中秋游园会啦，
+    还没抢到票的孩子们快来抓紧最后一次机会！
 
-- title: 【官方】RCSSA 2022-2023 学年新任主席
-  thumbnail: logo.png
-  link: https://mp.weixin.qq.com/s/8Rq50JWaKdnp6y2bdZiEaw
+- title: 【活动回顾】RCSSA全员大会回顾
+  thumbnail: altlogo.png
+  link: https://mp.weixin.qq.com/s/Vt5Ue1-rDI1EHCv2Qd0RTw?poc_token=HO-0EWWjjw-qOT0cmFLR8XtwXLCe_S93crh17jOF
   description: |
-    感谢大家对RCSSA和候选人的大力支持！
-    我们的竞选结果终于出来啦！
+    新一届RCSSA集结完毕
+    我们已经准备好为大家带来更多有趣的活动啦！
+    敬请期待吧！
