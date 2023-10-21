@@ -26,9 +26,9 @@
 # 外务
 - row:
     - info:
-        name: 牛奕涵
-        title: Vice President of External Affairs (Undergraduate)
-        picture: "nyh.jpg"
+        name: 李世炜
+        title: Vice President of External Affairs (Undergraduate) [Graduated]
+        picture: "lsw.jpg"
     - info:
         name: 褚彦菲
         title: Vice President of External Affairs (Undergraduate)
@@ -37,9 +37,9 @@
 # 宣传
 - row:
     - info:
-        name: 李天舒
+        name: 孙一琳
         title: Vice President of Publicity (Undergraduate)
-        picture: "lts.jpg"
+        picture: "syl.jpg"
 
 # IT
 - row:
