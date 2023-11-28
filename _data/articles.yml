@@ -2,6 +2,7 @@
 # the `description` field supports markdown syntax.
 # be careful to indent correctly. (\t)
 
+
 - title: 【活动】Rice乒乓球锦标赛报名开始啦！
   thumbnail: pingpong.png
   link: https://mp.weixin.qq.com/s/rUDVI-y61w6A1XplEGI-EA
@@ -15,6 +16,7 @@
   description: |
     还有四天就是中秋游园会啦，
     还没抢到票的孩子们快来抓紧最后一次机会！
+
 
 - title: 【活动回顾】RCSSA全员大会回顾
   thumbnail: altlogo.png
