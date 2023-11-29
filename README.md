@@ -45,7 +45,7 @@ The built site will be in `./_site`
 
 ### Site PageView Statistics
 
-[Google Analytics]{https://analytics.google.com/analytics/web/?utm_source=marketingplatform.google.com&utm_medium=et&utm_campaign=marketingplatform.google.com%2Fabout%2Fanalytics%2F#/p412731657/reports/intelligenthome?params=_u..nav%3Dmaui}
+[Google Analytics](https://analytics.google.com/analytics/web/?utm_source=marketingplatform.google.com&utm_medium=et&utm_campaign=marketingplatform.google.com%2Fabout%2Fanalytics%2F#/p412731657/reports/intelligenthome?params=_u..nav%3Dmaui)
 
 ## Demo
 
